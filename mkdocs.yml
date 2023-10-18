@@ -17,6 +17,8 @@ theme:
           name: Switch to light mode
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.arithmatex:
       generic: true
   - def_list
@@ -30,6 +32,10 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
   - md_in_html
+  - attr_list
+  - markdown_captions
+  - pymdownx.tabbed:
+      alternate_style: true 
   - attr_list
 
 extra_javascript:
