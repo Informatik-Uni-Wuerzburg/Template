@@ -33,7 +33,6 @@ markdown_extensions:
   - pymdownx.mark
   - md_in_html
   - attr_list
-  - markdown_captions
   - pymdownx.tabbed:
       alternate_style: true 
   - attr_list
